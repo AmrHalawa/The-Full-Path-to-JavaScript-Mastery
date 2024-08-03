@@ -24,3 +24,16 @@ const firstLetter = firstName[0];
 const lastLetter = firstName[firstName.length - 1]; // .
 
 console.log(firstLetter, lastLetter);
+
+//---------------------------------------------//
+
+// Change String Case
+
+const mixedCaseString = "Hello! How are you?";
+
+const lowerCaseString = mixedCaseString.toLowerCase(); // immutable method --> doesn't change the first string, rather it creates a new one
+
+const upperCaseString = mixedCaseString.toUpperCase();
+
+console.log(lowerCaseString);
+console.log(upperCaseString);
