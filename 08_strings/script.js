@@ -37,3 +37,24 @@ const upperCaseString = mixedCaseString.toUpperCase();
 
 console.log(lowerCaseString);
 console.log(upperCaseString);
+
+//---------------------------------------------//
+
+// Searching for a Substring
+
+const hobbies = "I love HTML, CSS and JavaScript, JavaScript.";
+
+// indexOf() --> looks for the substring in a string starting from a given position
+const firstIndex = hobbies.indexOf("JavaScript"); // 21
+
+// lastIndexOf()
+const lastIndex = hobbies.lastIndexOf("JavaScript"); // 33
+
+// includes() --> returns true or false
+const includesJavaScript = hobbies.includes("JavaScript"); // true
+
+// startsWith()
+console.log(hobbies.startsWith("I")); // true
+
+// endsWith()
+console.log(hobbies.endsWith("JavaScript.")); // true
