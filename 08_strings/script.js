@@ -58,3 +58,13 @@ console.log(hobbies.startsWith("I")); // true
 
 // endsWith()
 console.log(hobbies.endsWith("JavaScript.")); // true
+
+//---------------------------------------------//
+
+// Getting a Substring
+
+const exampleString = "hotdog";
+
+// slice()
+const hot = exampleString.slice(0, 3); // hot
+const dog = exampleString.slice(3,6); // dog
