@@ -41,3 +41,32 @@ names.splice(2, 0, "Amr", "Johnny");
 // Array Slice - Copies certain parts of an array into a newly created array
 const noOneLikesJon = names.slice(1);
 console.log(noOneLikesJon);
+
+// -------------------------------------- //
+
+// Array forEach - performs an action for each element in the array
+const names = ["Jon", "Jenny", "Johnny"];
+
+// for (let i = 0; i < names.length; i++) {
+//   console.log(i, names[i]);
+// }
+
+const value = names.forEach((name, i) => console.log(name, i)); // always returns undefined values
+
+console.log(value); // undefined
+
+// use When
+// you want to do something with each element of the array
+
+// Don't use when
+// you want to stop or break the loop when some condition is true
+// you're working with async code
+
+let sum = 0;
+const numbers = [65, 44, 12, 4];
+
+numbers.forEach((number) => {
+  sum += number;
+});
+
+console.log(sum);
