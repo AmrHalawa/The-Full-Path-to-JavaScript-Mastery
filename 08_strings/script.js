@@ -79,3 +79,24 @@ const exampleString = "The quick brown fox jumps over the lazy dog.";
 // const letters = exampleString.split(''); // returns an array with every char
 
 const letters = exampleString.split(' '); // returns every word splitted by space
+
+//---------------------------------------------//
+
+// Reverse, Repeat and Trim a String
+
+// reverse a string --> cannot be used on a string, but we can once we split it into an array
+const exampleString = "test"; // tset
+
+const reversedString = exampleString.split("").reverse().join("");
+
+console.log(reversedString);
+
+// repeat()
+const dogSays = "woof";
+
+console.log(dogSays.repeat(5));
+
+// trim()
+const email = " contact@javascript.com  ";
+
+console.log(email.trim()); // contact@javascript.com
