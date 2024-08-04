@@ -68,3 +68,14 @@ const exampleString = "hotdog";
 // slice()
 const hot = exampleString.slice(0, 3); // hot
 const dog = exampleString.slice(3,6); // dog
+
+//---------------------------------------------//
+
+// Split a String
+
+const exampleString = "The quick brown fox jumps over the lazy dog.";
+
+// split()
+// const letters = exampleString.split(''); // returns an array with every char
+
+const letters = exampleString.split(' '); // returns every word splitted by space
